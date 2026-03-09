@@ -36,13 +36,13 @@
       "command": "python",
       "args": ["mcp_servers/code_search_server.py", "--index-path", "./src"]
     },
-    "secret-scanner": {
-      "command": "python",
-      "args": ["mcp_servers/secret_scanner_server.py"]
-    },
     "doc-generator": {
       "command": "python",
       "args": ["mcp_servers/doc_generator_server.py", "--output", "./docs"]
+    },
+    "secret-scanner": {
+      "command": "python",
+      "args": ["mcp_servers/secret_scanner_server.py"]
     },
     "google-maps": {
       "command": "npx",
