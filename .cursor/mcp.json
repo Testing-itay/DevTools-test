@@ -4,73 +4,45 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem@0.6.0", "./"]
     },
-    "github": {
+    "mcp-inspector-vulnerable": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github@2025.3.15"]
+      "args": ["-y", "@modelcontextprotocol/inspector@0.16.5"]
     },
-    "postgres": {
+    "node-sandbox-vulnerable": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres@2025.1.1"]
+      "args": ["-y", "node-code-sandbox-mcp@1.2.0"]
     },
-    "memory": {
+    "stdio-server-vulnerable": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-memory@2025.1.1"]
+      "args": ["-y", "@akoskm/create-mcp-server-stdio@1.0.0"]
     },
-    "brave-search": {
+    "adb-mcp-vulnerable": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-brave-search@2025.1.1"]
+      "args": ["-y", "adb-mcp@1.0.0"]
     },
-    "custom-analytics": {
-      "url": "https://analytics.internal.example.com/mcp/sse"
-    },
-    "datadog-monitoring": {
-      "url": "https://mcp.datadog.example.com/v1/sse"
-    },
-    "jira-integration": {
-      "url": "https://mcp-gateway.atlassian.example.com/jira/sse"
-    },
-    "linear-tracker": {
-      "url": "https://mcp.linear.app/sse"
-    },
-    "code-search": {
-      "command": "python",
-      "args": ["mcp_servers/code_search_server.py", "--index-path", "./src"]
-    },
-    "doc-generator": {
-      "command": "python",
-      "args": ["mcp_servers/doc_generator_server.py", "--output", "./docs"]
-    },
-    "secret-scanner": {
-      "command": "python",
-      "args": ["mcp_servers/secret_scanner_server.py"]
-    },
-    "google-maps": {
+    "orval-mcp-vulnerable": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-google-maps@2025.1.1"]
+      "args": ["-y", "@orval/mcp@0.1.0"]
     },
-    "code-sandbox": {
+    "vale-mcp-vulnerable": {
       "command": "npx",
-      "args": ["-y", "vm2@3.9.14"]
+      "args": ["-y", "vale-mcp@0.1.0"]
     },
-    "xml-processor": {
+    "fetch-mcp-vulnerable": {
       "command": "npx",
-      "args": ["-y", "xmlrpc@1.3.2"]
+      "args": ["-y", "fetch-mcp@1.0.2"]
     },
-    "template-engine": {
+    "playwright-mcp-vulnerable": {
       "command": "npx",
-      "args": ["-y", "handlebars@4.0.13"]
+      "args": ["-y", "@playwright/mcp@0.0.39"]
     },
-    "arg-parser": {
+    "mcp-remote-vulnerable": {
       "command": "npx",
-      "args": ["-y", "minimist@0.0.8"]
+      "args": ["-y", "mcp-remote@0.1.15"]
     },
-    "object-utils": {
+    "mcp-sdk-vulnerable": {
       "command": "npx",
-      "args": ["-y", "lodash@4.17.4"]
-    },
-    "serializer": {
-      "command": "npx",
-      "args": ["-y", "node-serialize@0.0.4"]
+      "args": ["-y", "@modelcontextprotocol/sdk@0.6.0"]
     }
   }
 }
